@@ -3,7 +3,7 @@ using namespace std;
 
 int fact(int n){
 
-    //method 1;
+    //method 1 recursively
 
     // if(n==0 || n==1)
     //     return 1;
