@@ -13,12 +13,17 @@ int main(){
         cin>>arr[i];
     }
 
-    int largest = arr[0];
+    int largest = INT_MIN;
     
     for(int i=0; i<n; i++){
         if(arr[i]>largest){
             largest = arr[i];
         }
+
+        //or 
+
+        // largest = max(largest, arr[i]);
+
     }
 
     cout<<"Largest element is: "<<largest<<endl;
